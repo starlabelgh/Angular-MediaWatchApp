@@ -7,7 +7,8 @@ import {Component, Input} from 'angular2/core';
 })
 export class MediaItemComponent {
     @Input('mediaItemToWatch') mediaItem;
-    onDelete(){
-        console.log('deleted')
+    
+    onDelete() {
+        console.log('deleted');
     }
 }
